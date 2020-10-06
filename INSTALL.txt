@@ -1,4 +1,4 @@
-Zum installieren der Haskell Plattform unter Debian führen Sie folgendes
+Zum installieren der Clang Plattform unter Debian führen Sie folgendes
 Kommando aus:
 
-> aptitude install haskell-platform
+> aptitude install clang 
