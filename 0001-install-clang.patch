@@ -1,0 +1,22 @@
+From 337a46e525053e7fc08929ed5a3798761867a538 Mon Sep 17 00:00:00 2001
+From: jonas-lauffer <jonas.j.lauffer@gmail.com>
+Date: Tue, 13 Oct 2020 11:50:39 +0200
+Subject: [PATCH] install clang
+
+---
+ INSTALL.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/INSTALL.txt b/INSTALL.txt
+index e8c911f..f29d918 100644
+--- a/INSTALL.txt
++++ b/INSTALL.txt
+@@ -1,4 +1,4 @@
+ Zum installieren der Haskell Plattform unter Debian führen Sie folgendes
+ Kommando aus:
+ 
+-> aptitude install haskell-platform
++>sudo  aptitude install clang
+-- 
+2.20.1
+
