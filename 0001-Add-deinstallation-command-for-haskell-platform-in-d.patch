@@ -1,0 +1,25 @@
+From de254ec507901f9d0ebc4bac49b851f674367041 Mon Sep 17 00:00:00 2001
+From: Ehsan Moslehi <moslehi.ehsan@gmail.com>
+Date: Tue, 27 Oct 2020 18:51:00 +0100
+Subject: [PATCH] Add deinstallation command for haskell-platform in debian
+
+---
+ INSTALL.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/INSTALL.txt b/INSTALL.txt
+index e8c911f..6ed6c91 100644
+--- a/INSTALL.txt
++++ b/INSTALL.txt
+@@ -2,3 +2,8 @@ Zum installieren der Haskell Plattform unter Debian führen Sie folgendes
+ Kommando aus:
+ 
+ > aptitude install haskell-platform
++
++Zum deinstallieren der Haskell Plattform unter Debian führen Sie folgendes
++Kommando aus:
++
++> aptitude --purge remove haskell-platform
+-- 
+2.25.1
+
