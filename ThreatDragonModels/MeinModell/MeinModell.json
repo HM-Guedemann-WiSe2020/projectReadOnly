@@ -8,11 +8,114 @@
     "contributors": [],
     "diagrams": [
       {
+        "cells": [
+          {
+            "position": {
+              "x": 460,
+              "y": -420
+            },
+            "size": {
+              "width": 170,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "AWS Organisationskonto"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "e7dcce2a-90d6-429b-8164-1e8efff7f357",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "AWS Organisationskonto",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 290,
+              "y": -320
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Benutzerkonto 1"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "81e98b9d-2bde-4cb6-b3e3-c82d0d0152b8",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Benutzerkonto 1",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 680,
+              "y": -320
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Benutzerkonto 2"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "shape": "actor",
+            "id": "f303e349-c0c8-4b87-af83-cc6b8f4c76ce",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Benutzerkonto 2",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          }
+        ],
+        "version": "2.0",
         "title": "test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
       }
     ],
     "reviewer": "rev"
-  }
+  },
+  "version": "2.0"
 }
